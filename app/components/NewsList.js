@@ -12,7 +12,7 @@ const NewsList = ({ route }) => {
             <View style={styles.headerContainer}>
                 <Text style={styles.categoryTitle} > {header} </Text>
             </View>
-            <ScrollView contentContainerStyle={{ padding: 15 }} >
+            <ScrollView contentContainerStyle={{ padding: 5 }} >
                 <VerticalList data={data} />
             </ScrollView>
         </LinearGradient>

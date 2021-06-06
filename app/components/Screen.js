@@ -19,7 +19,6 @@ export default Screen;
 
 const styles = StyleSheet.create({
     container: {
-        marginTop: StatusBar.currentHeight,
         paddingHorizontal: 3,
         flex: 1,
     },
