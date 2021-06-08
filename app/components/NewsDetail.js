@@ -62,7 +62,6 @@ export default NewsDetail
 
 const styles = StyleSheet.create({
     container: {
-
     },
     image: {
         width: width,

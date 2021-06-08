@@ -12,6 +12,7 @@ import TechNews from './TechNews';
 import EntertainmentNews from './EntertainmentNews';
 import useNews from '../Hooks/useNews';
 import ActivityIndicator from './common/ActivityIndicator';
+import Header from './Header'
 
 const Home = () => {
   const [isSearchFocused, setSearchFocused] = useState(false)
@@ -19,6 +20,7 @@ const Home = () => {
   return(
     <>
     <ActivityIndicator visible={loading} />
+    <Header/>
     <Screen isSearchFocused={isSearchFocused} >
       <SearchBar setSearchFocused={setSearchFocused} />
       <FeaturedNews item={featuredNews}/>
